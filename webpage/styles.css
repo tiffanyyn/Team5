@@ -1,1 +1,72 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+/* Apply a simple background color to the body */
 body {
+   background-color: #312d3e;
+   color: azure;
+   font-family: cursive;
+}
+
+/* Style the header */
+header {
+   background-color: rgb(23, 63, 26);
+   color: azure;
+   text-align: center;
+   padding: 1em;
+}
+
+/* Style the navigation menu */
+nav {
+   background-color: rgb(44, 135, 52);
+   padding: 0.5em;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   color: #fef;
+}
+
+nav a {
+   text-decoration: none;
+   color: #fff;
+   padding: 0.5em 1em;
+}
+
+/* Style the main content */
+main {
+   padding: 2em;
+}
+
+section {
+   margin-bottom: 1.5em;
+}
+
+h4 {
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+}
+
+a {
+   color: rgb(110, 148, 214);
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(23, 63, 26);
+    color: azure;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
